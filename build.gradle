@@ -1,0 +1,61 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.cucumber:cucumber-java:5.6.0'
+    implementation 'io.cucumber:cucumber-junit-platform-engine:5.6.0'
+    implementation 'io.cucumber:cucumber-junit:5.6.0'
+    implementation 'io.cucumber:cucumber-testng:5.6.0'
+    implementation 'io.cucumber:cucumber-picocontainer:5.6.0'
+    implementation 'io.cucumber:gherkin:15.0.2'
+    implementation 'org.mockito:mockito-all:1.9.5'
+    implementation 'junit:junit:4.11'
+    implementation 'org.hamcrest:hamcrest-library:1.3'
+    implementation group: 'log4j', name: 'log4j', version: '1.2.17'
+    implementation 'io.github.bonigarcia:webdrivermanager:4.1.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.14.0'
+    implementation 'org.testng:testng:6.9.0'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+    implementation 'com.google.guava:guava:29.0-jre'
+
+    implementation 'io.rest-assured:rest-assured:4.3.1'
+    implementation 'com.jayway.restassured:rest-assured:2.9.0'
+
+    implementation 'org.apache.logging.log4j:log4j-core:2.13.3'
+    implementation 'org.apache.logging.log4j:log4j-api:2.13.3'
+    implementation 'org.slf4j:slf4j-api:1.7.30'
+    implementation 'org.slf4j:slf4j-simple:1.7.30'
+    implementation 'com.vimalselvam:cucumber-extentsreport:3.0.2'
+    implementation 'com.aventstack:extentreports-cucumber4-adapter:1.2.1'
+    implementation 'com.aventstack:extentreports:5.0.7'
+    implementation group: 'org.json', name: 'org.json', version: 'chargebee-1.0'
+    implementation group: 'org.immutables', name: 'gson', version: '2.8.8'
+
+
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.12.3'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.3'
+
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    implementation group: 'org.skyscreamer', name: 'jsonassert', version: '1.2.3'
+    implementation 'org.postgresql:postgresql:42.2.20'
+
+    implementation 'org.apache.maven.surefire:surefire-testng:3.0.0-M5'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+
+    implementation 'org.projectlombok:lombok:1.18.20'
+    implementation 'org.apache.poi:ooxml-schemas:1.4'
+    implementation group: 'de.mwvb', name: 'xmldocument', version: '0.1.0'
+
+    implementation group: 'com.opencsv', name: 'opencsv', version: '5.2'
+}
+
+test {
+    systemProperty "cucumber.options", System.getProperty("cucumber.options")
+    useTestNG() {
+    }
+}

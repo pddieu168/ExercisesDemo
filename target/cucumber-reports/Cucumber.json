@@ -1,0 +1,165 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-15T11:39:56.955Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6483309000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.project.stepDefinitions.Hooks.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Retrieve 10 days weather for Day and Night and save to csv file",
+        "description": "",
+        "id": ";retrieve-10-days-weather-for-day-and-night-and-save-to-csv-file",
+        "after": [
+          {
+            "result": {
+              "duration": 8131000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.project.stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 269917000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.project.stepDefinitions.Hooks.AfterSteps(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2909669000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User visit Weather page",
+            "match": {
+              "location": "com.project.stepDefinitions.RegionHeaderSteps.userVisitWeatherPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25725304000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify that the search input field is displayed",
+            "match": {
+              "location": "com.project.stepDefinitions.RegionHeaderSteps.assertSearchFieldIsDisplayedOrNot()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2237127000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Input value Singapore in search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Singapore",
+                  "offset": 12
+                }
+              ],
+              "location": "com.project.stepDefinitions.RegionHeaderSteps.inputValueToSearchField(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4380004000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select Singapore, North, Singapore Option From Result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Singapore, North, Singapore",
+                  "offset": 7
+                }
+              ],
+              "location": "com.project.stepDefinitions.RegionHeaderSteps.selectSingaporeOption(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1970774000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Local Suite Header 10 Day",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10 Day",
+                  "offset": 25
+                }
+              ],
+              "location": "com.project.stepDefinitions.RegionHeaderSteps.clickLocalSuiteHeader(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54082604000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Retrieve 10 days weather for Day and Night",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 9
+                }
+              ],
+              "location": "com.project.stepDefinitions.RegionHeaderSteps.retrieve10DaysWeather(int)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/Dashboard.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

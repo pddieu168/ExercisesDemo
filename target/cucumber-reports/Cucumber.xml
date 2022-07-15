@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="98.386">
+    <testcase classname="" name="Retrieve 10 days weather for Day and Night and save to csv file" time="98.079">
+        <system-out>
+            <![CDATA[When User visit Weather page................................................passed
+Then Verify that the search input field is displayed........................passed
+When Input value Singapore in search field..................................passed
+Then Select Singapore, North, Singapore Option From Result..................passed
+And Click Local Suite Header 10 Day.........................................passed
+When Retrieve 10 days weather for Day and Night.............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

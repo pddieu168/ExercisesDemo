@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runner.Runner" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-15T11:21:19" hostname="MacBook-Pro-cua-David.local" time="81.869">
+  <properties/>
+  <testcase name="runScenario[0](&quot;&quot;, &quot;&quot;)" classname="runner.Runner" time="81.869"/>
+  <system-out><![CDATA[
+Scenario:                                                    # src/test/java/feature/Dashboard.feature:2
+2022-07-15 18:21:20,454 ?[32mINFO: ?[mDriver: chrome
+  When User visit Weather page                               # com.project.stepDefinitions.RegionHeaderSteps.userVisitWeatherPage()
+  Then Verify that the search input field is displayed       # com.project.stepDefinitions.RegionHeaderSteps.assertSearchFieldIsDisplayedOrNot()
+2022-07-15 18:21:42,806 ?[32mINFO: ?[mType 'Singapore' into edit box 'Location Search Input'
+  When Input value Singapore in search field                 # com.project.stepDefinitions.RegionHeaderSteps.inputValueToSearchField(java.lang.String)
+2022-07-15 18:21:49,781 ?[32mINFO: ?[mClick Search Singapore Option
+  Then Select Singapore, North, Singapore Option From Result # com.project.stepDefinitions.RegionHeaderSteps.selectSingaporeOption(java.lang.String)
+2022-07-15 18:21:51,760 ?[32mINFO: ?[mClick Local Suite Header
+  And Click Local Suite Header 10 Day                        # com.project.stepDefinitions.RegionHeaderSteps.clickLocalSuiteHeader(java.lang.String)
+2022-07-15 18:21:51,791 ?[32mINFO: ?[mDay index 0
+2022-07-15 18:21:51,865 ?[32mINFO: ?[mNight 0 days from today , PartName: Fri 15 | Night, Temp: 80°, Humidity: 82% 
+
+2022-07-15 18:21:55,218 ?[32mINFO: ?[mClick Arrow Up button of Index to Close
+2022-07-15 18:22:02,317 ?[32mINFO: ?[mClick Arrow Up button of Index to Open
+2022-07-15 18:22:02,815 ?[32mINFO: ?[mDay 1 days from today , PartName: Sat 16 | Day, Temp: 90°, Humidity: 70% 
+
+2022-07-15 18:22:02,894 ?[32mINFO: ?[mNight 1 days from today , PartName: Sat 16 | Night, Temp: 80°, Humidity: 82% 
+
+2022-07-15 18:22:04,959 ?[32mINFO: ?[mClick Arrow Up button of Index to Close
+2022-07-15 18:22:07,097 ?[32mINFO: ?[mClick Arrow Up button of Index to Open
+2022-07-15 18:22:07,180 ?[32mINFO: ?[mDay 2 days from today , PartName: Sun 17 | Day, Temp: 91°, Humidity: 69% 
+
+2022-07-15 18:22:07,238 ?[32mINFO: ?[mNight 2 days from today , PartName: Sun 17 | Night, Temp: 80°, Humidity: 79% 
+
+2022-07-15 18:22:09,346 ?[32mINFO: ?[mClick Arrow Up button of Index to Close
+2022-07-15 18:22:11,482 ?[32mINFO: ?[mClick Arrow Up button of Index to Open
+2022-07-15 18:22:11,562 ?[32mINFO: ?[mDay 3 days from today , PartName: Mon 18 | Day, Temp: 90°, Humidity: 70% 
+
+2022-07-15 18:22:11,624 ?[32mINFO: ?[mNight 3 days from today , PartName: Mon 18 | Night, Temp: 80°, Humidity: 82% 
+
+2022-07-15 18:22:13,726 ?[32mINFO: ?[mClick Arrow Up button of Index to Close
+2022-07-15 18:22:17,235 ?[32mINFO: ?[mClick Arrow Up button of Index to Open
+2022-07-15 18:22:17,323 ?[32mINFO: ?[mDay 4 days from today , PartName: Tue 19 | Day, Temp: 89°, Humidity: 72% 
+
+2022-07-15 18:22:17,410 ?[32mINFO: ?[mNight 4 days from today , PartName: Tue 19 | Night, Temp: 79°, Humidity: 83% 
+
+2022-07-15 18:22:19,522 ?[32mINFO: ?[mClick Arrow Up button of Index to Close
+2022-07-15 18:22:22,682 ?[32mINFO: ?[mClick Arrow Up button of Index to Open
+2022-07-15 18:22:22,758 ?[32mINFO: ?[mDay 5 days from today , PartName: Wed 20 | Day, Temp: 88°, Humidity: 73% 
+
+2022-07-15 18:22:22,816 ?[32mINFO: ?[mNight 5 days from today , PartName: Wed 20 | Night, Temp: 79°, Humidity: 83% 
+
+2022-07-15 18:22:24,935 ?[32mINFO: ?[mClick Arrow Up button of Index to Close
+2022-07-15 18:22:28,085 ?[32mINFO: ?[mClick Arrow Up button of Index to Open
+2022-07-15 18:22:28,161 ?[32mINFO: ?[mDay 6 days from today , PartName: Thu 21 | Day, Temp: 88°, Humidity: 72% 
+
+2022-07-15 18:22:28,225 ?[32mINFO: ?[mNight 6 days from today , PartName: Thu 21 | Night, Temp: 79°, Humidity: 83% 
+
+2022-07-15 18:22:30,334 ?[32mINFO: ?[mClick Arrow Up button of Index to Close
+2022-07-15 18:22:33,494 ?[32mINFO: ?[mClick Arrow Up button of Index to Open
+2022-07-15 18:22:33,572 ?[32mINFO: ?[mDay 7 days from today , PartName: Fri 22 | Day, Temp: 88°, Humidity: 72% 
+
+2022-07-15 18:22:33,628 ?[32mINFO: ?[mNight 7 days from today , PartName: Fri 22 | Night, Temp: 79°, Humidity: 82% 
+
+2022-07-15 18:22:35,748 ?[32mINFO: ?[mClick Arrow Up button of Index to Close
+2022-07-15 18:22:39,085 ?[32mINFO: ?[mClick Arrow Up button of Index to Open
+2022-07-15 18:22:39,161 ?[32mINFO: ?[mDay 8 days from today , PartName: Sat 23 | Day, Temp: 86°, Humidity: 73% 
+
+2022-07-15 18:22:39,216 ?[32mINFO: ?[mNight 8 days from today , PartName: Sat 23 | Night, Temp: 78°, Humidity: 81% 
+
+2022-07-15 18:22:41,327 ?[32mINFO: ?[mClick Arrow Up button of Index to Close
+  When Retrieve 10 days weather for Day and Night            # com.project.stepDefinitions.RegionHeaderSteps.retrieve10DaysWeather(int)
+]]></system-out>
+  <system-err><![CDATA[Jul 15, 2022 6:21:19 PM io.cucumber.core.options.CucumberPropertiesParser parse
+WARNING: Passing commandline options via the property `cucumber.options` has been deprecatedin favour of explicitly using property names.
+Please use these instead: [cucumber.ansi-colors.disabled, cucumber.execution.dry-run, cucumber.execution.limit, cucumber.execution.order, cucumber.execution.strict, cucumber.execution.wip, cucumber.features, cucumber.filter.name, cucumber.filter.tags, cucumber.glue, cucumber.object-factory, cucumber.plugin, cucumber.snippet-type]
+Jul 15, 2022 6:21:19 PM io.cucumber.testng.TestNGCucumberRunner <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (since Chrome 103 is installed in your machine)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/david/.m2/repository/webdriver/chromedriver/mac64/103.0.5060.53/chromedriver
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 6482
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 15, 2022 6:21:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
